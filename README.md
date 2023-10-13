@@ -14,16 +14,15 @@
 </head>
 <body>
     <header>
-        <h1>Almost There, My Love.</h1>
+        <h1>Falta pouco, meu amor.</h1>
     </header>
     <main>
         <div id="countdown">
-            <h2>Alexandre and Eva Gabriela <span>&#10084;</span></h2>
+            <h2>Alexandre e Eva Gabriela <span>&#10084;</span></h2>
             <div id="timer"></div>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2023 Your Name</p>
+    
     </footer>
 
     <script>
