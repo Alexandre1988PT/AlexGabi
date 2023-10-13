@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contagem Regressiva</title>
+    <title>Countdown Timer</title>
     <style>
         h1 {
-            font-size: 24px;
+            font-size: 24px; /* Font size for the title */
         }
 
         #countdown {
-            font-size: 48px;
+            font-size: 48px; /* Font size for the countdown */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Falta pouco, meu Amor.</h1>
+        <h1>Almost There, My Love.</h1>
     </header>
     <main>
         <div id="countdown">
-            <h2>Alexandre e Eva Gabriela <span>&#10084;</span></h2>
+            <h2>Alexandre and Eva Gabriela <span>&#10084;</span></h2>
             <div id="timer"></div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2023 Seu Nome</p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
 
     <script>
@@ -40,11 +40,14 @@
 
                 document.getElementById("timer").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
             } else {
-                document.getElementById("timer").innerHTML = "A contagem regressiva terminou!";
+                document.getElementById("timer").innerHTML = "The countdown has ended!";
             }
         }
 
+        // Update the countdown every second
         setInterval(updateCountdown, 1000);
+
+        // Call the function to start the countdown
         updateCountdown();
     </script>
 </body>
