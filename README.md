@@ -24,7 +24,7 @@
     </main>
     
     </footer>
-
+<div id="timer">
     <script>
         function updateCountdown() {
             const targetDate = new Date("2024-01-11T01:00:00Z").getTime();
@@ -49,5 +49,7 @@
         // Call the function to start the countdown
         updateCountdown();
     </script>
+
+    </div>
 </body>
 </html>
